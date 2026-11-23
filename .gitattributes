@@ -1,0 +1,8 @@
+* -text
+# 原始碼與文件統一用 LF：工具把換行改成 CRLF 時，git 存進去會轉回 LF，
+# 不會再出現整檔都是差異的 commit。
+*.py   text eol=lf
+*.md   text eol=lf
+# 其他檔案不做換行轉換：PSCalculator.bat 與資料檔（json）都要維持原樣
+*.bat  -text
+*.json -text

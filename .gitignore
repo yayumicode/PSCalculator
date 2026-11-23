@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.tmp
+stamina_schedule-pulp.*
+error.log
+*.corrupt_*
+# 上次用的是哪個帳號——每次切帳號都會變，不納入版本控制
+app_state.json
+# Release 用的 ZIP（tools/publish_github.py --zip 產生），不納入版本控制
+dist/

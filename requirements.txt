@@ -1,0 +1,3 @@
+# PuLP 3.3 and 4.x are both supported. The [cbc] extra installs the CBC solver,
+# which PuLP 4.x no longer bundles.
+pulp[cbc]>=3.3,<5
